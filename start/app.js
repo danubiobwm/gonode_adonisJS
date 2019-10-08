@@ -71,8 +71,6 @@ const commands = []
 | Here you store your queue jobs
 |
 */
-const jobs = [
-  'App/Jobs/NewTaskMail'
-]
+const jobs = ['App/Jobs/NewTaskMail']
 
 module.exports = { providers, aceProviders, aliases, commands, jobs }
